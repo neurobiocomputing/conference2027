@@ -3,7 +3,7 @@ title: Program
 description: Conference dates and program updates for NeuroBiological Computing 2027.
 ---
 
-<p class="lead">Three days exploring biological computation.</p>
+<p class="lead">Three days of establishing neurobiolgical computing together.</p>
 
 NeuroBiological Computing 2027 takes place on **{{ site.event.date_label }}**. The scientific program and session times will be announced here.
 
