@@ -9,6 +9,8 @@ NeuroBiological Computing 2027 takes place on **{{ site.event.date_label }}** at
 
 **Address:** Karlstraße 4, 69117 Heidelberg.
 
+The Academy is located in Heidelberg's historic Old Town (Altstadt), near Heidelberg Castle.
+
 ## Find the venue
 
 <div class="border rounded overflow-hidden my-4">
@@ -26,6 +28,23 @@ NeuroBiological Computing 2027 takes place on **{{ site.event.date_label }}** at
 
 <p><a class="btn btn-outline-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Heidelberger%20Akademie%20der%20Wissenschaften%2C%20Karlstra%C3%9Fe%204%2C%2069117%20Heidelberg%2C%20Germany">Get directions in Google Maps</a></p>
 
-## Travel & accessibility
+## Getting here
 
-Travel directions, accommodation information, accessibility details, and attendance arrangements will be added here once confirmed.
+### By air
+
+**Frankfurt International Airport (FRA)** is the recommended airport for visitors traveling from abroad. **Stuttgart Airport (STR)** is a secondary option.
+
+From either airport, continue by train to **Heidelberg Hbf** (Heidelberg Central Station), changing trains as required. Search connections and purchase train tickets on [Deutsche Bahn's English-language website](https://int.bahn.de/en).
+
+### From Heidelberg Hbf to the venue
+
+- **By S-Bahn:** Take a service stopping at **Heidelberg-Altstadt**, then walk to the Academy at Karlstraße 4. The walk takes approximately 10–15 minutes.
+- **By local bus:** Take a connection to **Neckarmünzplatz** or **Rathaus/Bergbahn**. Both stops are a short walk from the Academy.
+
+For local bus and tram connections, timetables, and ticket options, use the [VRN journey planner](https://www.vrn.de/). Enter **Karlstraße 4, 69117 Heidelberg** as your destination and check connections for your travel date.
+
+See the [Academy's English-language website](https://www.hadw-bw.de/en/) and its [contact and arrival information](https://www.hadw-bw.de/en/contact-0) for further details.
+
+## Accommodation & accessibility
+
+Accommodation information, accessibility details, and attendance arrangements will be added here once confirmed.

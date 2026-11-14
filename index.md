@@ -36,6 +36,24 @@ layout: home
   <p class="small text-body-secondary mt-4 mb-0">These themes introduce the conference subject. The detailed scientific program will be announced.</p>
 </section>
 
+<section id="organizers" class="border-top pt-4 mb-5" aria-labelledby="organizers-title">
+  <h2 id="organizers-title" class="mb-4">Conference organizers</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <h3 class="h5">Chair</h3>
+      <p class="mb-0">Andrey Formozov</p>
+    </div>
+    <div class="col-md-8">
+      <h3 class="h5">Organizing committee</h3>
+      <ul class="list-unstyled mb-0">
+        <li>Andrey Formozov</li>
+        <li>Martin Both</li>
+        <li>Mihai A. Petrovici</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="conference-announcement bg-body-tertiary rounded p-4 p-md-5" aria-labelledby="updates-title">
   <div class="row g-4 align-items-center">
     <div class="col-md-7">
