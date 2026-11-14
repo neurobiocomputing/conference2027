@@ -44,7 +44,3 @@ From either airport, continue by train to **Heidelberg Hbf** (Heidelberg Central
 For local bus and tram connections, timetables, and ticket options, use the [VRN journey planner](https://www.vrn.de/). Enter **Karlstraße 4, 69117 Heidelberg** as your destination and check connections for your travel date.
 
 See the [Academy's English-language website](https://www.hadw-bw.de/en/) and its [contact and arrival information](https://www.hadw-bw.de/en/contact-0) for further details.
-
-## Accommodation & accessibility
-
-Accommodation information, accessibility details, and attendance arrangements will be added here once confirmed.

@@ -10,11 +10,22 @@ layout: home
   <div class="col-md-8 fs-5">
     <p>How do biological neural systems process information, learn, and adapt? How can those principles help us develop new ways to compute?</p>
     <p class="mb-0">NeuroBiological Computing 2027 explores the intersection of neuroscience, biology, and computing. Save <strong>{{ site.event.date_label }}</strong> for three days focused on computation in living systems and the ideas it inspires.</p>
+    <h3 id="scope-title" class="h4 mt-4 mb-3">Conference Scope and Topics</h3>
+    <ul class="mb-0">
+      <li class="mb-2"><strong>Computing as a Framework for Exploring Neural Networks</strong></li>
+      <li class="mb-2"><strong>Input–Output Relationships in Neural Systems</strong></li>
+      <li class="mb-2"><strong>Neuronal Sequencers and Novel Experimental Paradigms</strong></li>
+      <li class="mb-2"><strong>Digital, Biological, and Neuromorphic Neural Networks</strong></li>
+      <li class="mb-2"><strong>High-Throughput Neural Interfaces: All-Optical Physiology and Electrophysiology</strong></li>
+      <li class="mb-2"><strong>Fundamental Theories and Models of Neural Computation: Experimental Validation</strong></li>
+      <li class="mb-2"><strong>Ensembles, Sequences, and Population Dynamics</strong></li>
+      <li class="mb-2"><strong>Plasticity and the Credit Assignment Problem</strong></li>
+      <li><strong>Computation in Non-Neuronal Networks</strong></li>
+    </ul>
   </div>
 </section>
 
 <section class="border-top pt-4 mb-5" aria-labelledby="themes-title">
-  <p class="conference-eyebrow text-body-secondary mb-2">Scientific focus</p>
   <h2 id="themes-title" class="mb-4">Exploring the connections</h2>
   <div class="row g-4">
     <div class="col-md-4">
@@ -64,8 +75,7 @@ layout: home
     <div class="col-md-5">
       <ul class="list-unstyled mb-0 conference-status">
         <li class="d-flex justify-content-between gap-3 border-bottom pb-2 mb-2"><span>Conference dates</span><strong>{{ site.event.date_label }}</strong></li>
-        <li class="d-flex justify-content-between gap-3 border-bottom pb-2 mb-2"><span>Registration</span><span class="text-body-secondary">To be announced</span></li>
-        <li class="d-flex justify-content-between gap-3"><span>Submissions</span><span class="text-body-secondary">To be announced</span></li>
+        <li class="d-flex justify-content-between gap-3"><span>Registration</span><span class="text-body-secondary">To be announced</span></li>
       </ul>
     </div>
   </div>
