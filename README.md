@@ -20,6 +20,21 @@ marked as **to be announced**.
 The published address will be **https://neurobiocomputing.github.io/**.
 Pull requests build the site for validation without deploying it.
 
+### Troubleshoot a missing theme on GitHub Pages
+
+If a run named **pages build and deployment** fails with
+`github-pages 232 | Error: The jekyll-theme-conference theme could not be found`,
+GitHub's automatic branch build is using its bundled Jekyll environment. This
+site uses the custom **Build and deploy GitHub Pages** workflow in
+`.github/workflows/pages.yml`, which installs the theme from `Gemfile` with
+Bundler before building.
+
+Open the repository's [Pages settings](https://github.com/neurobiocomputing/neurobiocomputing.github.io/settings/pages)
+and select **GitHub Actions** as the publishing source. Then check the
+[custom workflow](https://github.com/neurobiocomputing/neurobiocomputing.github.io/actions/workflows/pages.yml).
+If its build and deploy jobs already succeeded, no rebuild is needed. Otherwise,
+choose **Run workflow** on `main` after updating the publishing source.
+
 ## Preview locally with conda
 
 Conda manages Ruby, and Bundler installs Jekyll and the conference theme from
