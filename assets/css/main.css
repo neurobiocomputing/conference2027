@@ -45,6 +45,13 @@ body {
   margin-top: 2rem;
 }
 
+.venue-map {
+  display: block;
+  width: 100%;
+  height: clamp(300px, 50vw, 450px);
+  border: 0;
+}
+
 .conference-footer {
   font-size: 0.9rem;
 }
