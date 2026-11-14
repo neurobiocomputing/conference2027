@@ -17,6 +17,6 @@ The call for contributions is to be announced. Submission formats, instructions,
 
 ## Planning your visit
 
-The venue and attendance arrangements are to be announced. Check the [venue and travel page]({{ '/venue/' | relative_url }}) for future updates.
+The conference will take place at Heidelberger Akademie der Wissenschaften (HAdW), Karlstraße 4, 69117 Heidelberg. Check the [venue and travel page]({{ '/venue/' | relative_url }}) for details and future updates on attendance arrangements.
 
 <a class="btn btn-outline-primary mt-2" href="{{ site.event.calendar | relative_url }}" download>Save the conference dates</a>

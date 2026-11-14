@@ -1,10 +1,12 @@
 ---
 title: Venue & travel
-description: Venue and travel updates for NeuroBiological Computing 2027.
+description: NeuroBiological Computing 2027 at the Heidelberg Academy of Sciences and Humanities, Karlstraße 4, 69117 Heidelberg.
 ---
 
-<p class="lead">The venue will be announced.</p>
+<p class="lead">Join us in Heidelberg.</p>
 
-NeuroBiological Computing 2027 is scheduled for **{{ site.event.date_label }}**. The city, venue, and attendance format have not yet been announced.
+NeuroBiological Computing 2027 takes place on **{{ site.event.date_label }}** at [**Heidelberger Akademie der Wissenschaften (HAdW)**](https://www.hadw-bw.de/node/31) (Heidelberg Academy of Sciences and Humanities).
 
-The venue address, travel directions, accommodation information, and accessibility details will be added here once confirmed.
+**Address:** Karlstraße 4, 69117 Heidelberg.
+
+Travel directions, accommodation information, accessibility details, and attendance arrangements will be added here once confirmed.

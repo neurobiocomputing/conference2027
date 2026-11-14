@@ -132,15 +132,16 @@ The conda Ruby platform `x64-mswin64-140` requires the MSVC setup above.
 
 If the dates change, update `_config.yml`, `_data/program.yml`, and the calendar
 file together. The calendar uses all-day dates; its `DTEND` is exclusive, so
-7 October means the event includes 4, 5, and 6 October. No location or timezone
-is assumed before the venue is confirmed.
+7 October means the event includes 4, 5, and 6 October. The confirmed venue is
+Heidelberger Akademie der Wissenschaften (HAdW), Karlstraße 4, 69117 Heidelberg.
+The calendar uses all-day dates without a timezone.
 
 The site uses the actual theme gem, including its Bootstrap styles, responsive
 navigation, metadata, and conference layouts. Small overrides in
 `_layouts/home.html` and `_layouts/page.html` add the conference landing page and
 shared footer while retaining the theme's header, navigation, and scripts.
 `_includes/schema_conference.html` supplies event metadata using only the
-confirmed name and dates, without assuming a location or attendance format.
+confirmed name, dates, and venue, without assuming an attendance format.
 
 When a timetable is available, populate `_talks/`, `_speakers/`, and `_rooms/`
 using the theme's documentation, update `_data/program.yml`, and switch the

@@ -1,5 +1,5 @@
 {%- comment -%}
-  Announce only confirmed facts. Add location and attendance details once known.
+  Announce only confirmed facts. Add attendance details once known.
 {%- endcomment -%}
 <script type="application/ld+json">
 {
@@ -9,6 +9,19 @@
   "description": {{ site.description | jsonify | replace: '<', '\u003c' }},
   "startDate": {{ site.event.start_date | jsonify }},
   "endDate": {{ site.event.end_date | jsonify }},
+  "location": {
+    "@type": "Place",
+    "name": "Heidelberger Akademie der Wissenschaften (HAdW)",
+    "alternateName": "Heidelberg Academy of Sciences and Humanities",
+    "url": "https://www.hadw-bw.de/node/31",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Karlstraße 4",
+      "postalCode": "69117",
+      "addressLocality": "Heidelberg",
+      "addressCountry": "DE"
+    }
+  },
   "eventStatus": "https://schema.org/EventScheduled",
   "inLanguage": {{ site.lang | jsonify }},
   "url": {{ '/' | absolute_url | jsonify }}
