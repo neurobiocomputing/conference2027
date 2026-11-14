@@ -1,7 +1,7 @@
 title: NeuroBiological Computing 2027
 description: Exploring computation in, with, and inspired by biological neural systems.
 url: "https://neurobiocomputing.github.io"
-baseurl: ""
+baseurl: "/conference2027"
 lang: en
 
 theme: jekyll-theme-conference

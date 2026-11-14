@@ -10,7 +10,7 @@ DTSTART;VALUE=DATE:20271004
 DTEND;VALUE=DATE:20271007
 SUMMARY:NeuroBiological Computing 2027
 DESCRIPTION:Conference on 4-6 October 2027. Venue to be announced.
-URL:https://neurobiocomputing.github.io/
+URL:https://neurobiocomputing.github.io/conference2027/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -11,13 +11,13 @@ marked as **to be announced**.
 ## Publish on GitHub Pages
 
 1. Commit and push these files to the `main` branch of
-   `neurobiocomputing/neurobiocomputing.github.io`.
+   `neurobiocomputing/conference2027`.
 2. In the repository's **Settings → Pages → Build and deployment**, select
    **GitHub Actions** as the source.
 3. The **Build and deploy GitHub Pages** workflow builds and publishes the site.
    If needed, run it manually from the **Actions** tab after enabling Pages.
 
-The published address will be **https://neurobiocomputing.github.io/**.
+The published address will be **https://neurobiocomputing.github.io/conference2027/**.
 Pull requests build the site for validation without deploying it.
 
 ### Troubleshoot a missing theme on GitHub Pages
@@ -29,9 +29,9 @@ site uses the custom **Build and deploy GitHub Pages** workflow in
 `.github/workflows/pages.yml`, which installs the theme from `Gemfile` with
 Bundler before building.
 
-Open the repository's [Pages settings](https://github.com/neurobiocomputing/neurobiocomputing.github.io/settings/pages)
+Open the repository's [Pages settings](https://github.com/neurobiocomputing/conference2027/settings/pages)
 and select **GitHub Actions** as the publishing source. Then check the
-[custom workflow](https://github.com/neurobiocomputing/neurobiocomputing.github.io/actions/workflows/pages.yml).
+[custom workflow](https://github.com/neurobiocomputing/conference2027/actions/workflows/pages.yml).
 If its build and deploy jobs already succeeded, no rebuild is needed. Otherwise,
 choose **Run workflow** on `main` after updating the publishing source.
 
@@ -63,7 +63,7 @@ the project's `Gemfile`. The instructions below use Windows and Anaconda.
 
    ```bat
    call "%LOCALAPPDATA%\anaconda3\condabin\conda.bat" activate nbc2027
-   cd /d "%USERPROFILE%\Documents\GitHub\neurobiocomputing.github.io"
+   cd /d "%USERPROFILE%\Documents\GitHub\conference2027"
 
    where ruby
    ruby --version
@@ -86,7 +86,7 @@ In the same activated **x64 Native Tools Command Prompt**, run:
 bundle exec jekyll serve
 ```
 
-Open **http://localhost:4000**. Jekyll rebuilds the site when source files change.
+Open **http://localhost:4000/conference2027/**. Jekyll rebuilds the site when source files change.
 Press **Ctrl+C** to stop the server. Restart it after editing `_config.yml`.
 
 For later sessions, reopen the x64 Native Tools prompt, activate `nbc2027`, and
