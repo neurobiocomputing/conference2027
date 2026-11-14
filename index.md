@@ -25,28 +25,6 @@ layout: home
   </div>
 </section>
 
-<section class="border-top pt-4 mb-5" aria-labelledby="themes-title">
-  <h2 id="themes-title" class="mb-4">Exploring the connections</h2>
-  <div class="row g-4">
-    <div class="col-md-4">
-      <span class="conference-topic-number text-primary" aria-hidden="true">01</span>
-      <h3 class="h5 mt-2">Computation in neural systems</h3>
-      <p class="text-body-secondary mb-0">Information processing, learning, and adaptation in biological networks.</p>
-    </div>
-    <div class="col-md-4">
-      <span class="conference-topic-number text-primary" aria-hidden="true">02</span>
-      <h3 class="h5 mt-2">Biology-inspired computing</h3>
-      <p class="text-body-secondary mb-0">Computational models and architectures informed by the principles of neural systems.</p>
-    </div>
-    <div class="col-md-4">
-      <span class="conference-topic-number text-primary" aria-hidden="true">03</span>
-      <h3 class="h5 mt-2">Biological computing platforms</h3>
-      <p class="text-body-secondary mb-0">Living neural networks and interfaces between biological and artificial systems.</p>
-    </div>
-  </div>
-  <p class="small text-body-secondary mt-4 mb-0">These themes introduce the conference subject. The detailed scientific program will be announced.</p>
-</section>
-
 <section id="organizers" class="border-top pt-4 mb-5" aria-labelledby="organizers-title">
   <h2 id="organizers-title" class="mb-4">Conference organizers</h2>
   <div class="row g-4">
