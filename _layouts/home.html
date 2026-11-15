@@ -2,8 +2,8 @@
 
 <section class="conference-hero bg-body-tertiary rounded p-4 p-md-5 mb-5" aria-labelledby="conference-title">
   <div class="row align-items-center g-4">
-    <div class="col-lg-7">
-      <h1 id="conference-title" class="display-3 text-break mb-4">{{ site.title | escape }}</h1>
+    <div class="col-lg-4">
+      <h1 id="conference-title" class="display-3 text-break mb-4">{{ site.title | escape | replace_first: 'Biological', '<br>Biological' }}</h1>
       <p class="conference-date fs-4 fw-semibold mb-1">
         <time datetime="{{ site.event.start_date }}">{{ site.event.date_label }}</time>
       </p>
@@ -13,8 +13,9 @@
         <a class="btn btn-outline-primary btn-lg" href="{{ '/participation/' | relative_url }}">Participation details</a>
       </div>
     </div>
-    <div class="col-lg-5 text-center">
-      <img class="conference-illustration" src="{{ '/LOGO.png' | relative_url }}" alt="NeuroBiological Computing 2027: connections between biological, artificial, and neuromorphic neural networks" width="1204" height="1124">
+    <div class="col-lg-8 text-center d-print-none">
+      <img class="conference-illustration mode-light" src="{{ '/LOGO_light.png' | relative_url }}" alt="NeuroBiological Computing 2027: connections between biological, artificial, and neuromorphic neural networks" width="1321" height="1220">
+      <img class="conference-illustration mode-dark" src="{{ '/LOGO_dark.png' | relative_url }}" alt="NeuroBiological Computing 2027: connections between biological, artificial, and neuromorphic neural networks" width="1419" height="1349">
     </div>
   </div>
 </section>

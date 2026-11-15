@@ -128,7 +128,7 @@ The conda Ruby platform `x64-mswin64-140` requires the MSVC setup above.
 | Registration and call for contributions | `participation/index.md` |
 | Venue, travel, and accessibility | `venue/index.md` |
 | Calendar download | `assets/calendar/neurobiological-computing-2027.ics` |
-| Additional styles | `assets/css/main.css` |
+| Additional styles | `assets/css/main.scss` |
 
 If the dates change, update `_config.yml`, `_data/program.yml`, and the calendar
 file together. The calendar uses all-day dates; its `DTEND` is exclusive, so
