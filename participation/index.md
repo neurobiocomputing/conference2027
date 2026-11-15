@@ -15,7 +15,7 @@ The platform will also allow online participants to submit questions and activel
 
 ## Registration
 
-Online registration has not opened yet. Registration details and the registration link will be published here once available.
+Online registration is open. [Register for online participation](https://docs.google.com/forms/d/e/1FAIpQLSd-g4anmmACGUo28kXQ3t3id25GWPKnD50yeKpMm9MzpaIM0g/viewform?usp=header).
 
 {% comment %}
 ## Call for contributions

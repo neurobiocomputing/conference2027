@@ -53,7 +53,7 @@ layout: home
     <div class="col-md-5">
       <ul class="list-unstyled mb-0 conference-status">
         <li class="d-flex justify-content-between gap-3 border-bottom pb-2 mb-2"><span>Conference dates</span><strong>{{ site.event.date_label }}</strong></li>
-        <li class="d-flex justify-content-between gap-3"><span>Registration</span><span class="text-body-secondary">To be announced</span></li>
+        <li class="d-flex justify-content-between gap-3"><span>Registration</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-g4anmmACGUo28kXQ3t3id25GWPKnD50yeKpMm9MzpaIM0g/viewform?usp=header">Register online</a></li>
       </ul>
     </div>
   </div>
