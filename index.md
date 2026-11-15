@@ -48,7 +48,7 @@ layout: home
     <div class="col-md-7">
       <p class="conference-eyebrow text-primary mb-2">Save the dates</p>
       <h2 id="updates-title">The next details are on their way.</h2>
-      <p class="mb-md-0">The program, invited speakers, call for contributions, and registration information will be published here as they are confirmed.</p>
+      <p class="mb-md-0">The conference program and list of invited speakers will be updated here as details are confirmed.</p>
     </div>
     <div class="col-md-5">
       <ul class="list-unstyled mb-0 conference-status">

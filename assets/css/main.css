@@ -25,7 +25,7 @@ body {
 
 .conference-illustration {
   width: 100%;
-  max-width: 360px;
+  max-width: 440px;
   height: auto;
 }
 
@@ -73,7 +73,7 @@ body {
   }
 
   .conference-illustration {
-    max-width: 220px;
+    max-width: 280px;
   }
 
   .conference-status li {
