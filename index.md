@@ -17,7 +17,7 @@ layout: home
       <li class="mb-2"><strong>Neuronal Sequencers and Novel Experimental Paradigms</strong></li>
       <li class="mb-2"><strong>Digital, Biological, and Neuromorphic Neural Networks</strong></li>
       <li class="mb-2"><strong>High-Throughput Neural Interfaces: All-Optical Physiology and Electrophysiology</strong></li>
-      <li class="mb-2"><strong>Fundamental Theories and Models of Neural Computation: Experimental Validation</strong></li>
+      <li class="mb-2"><strong>Fundamental Theories and Models of Neural Computation and their Experimental Validation</strong></li>
       <li class="mb-2"><strong>Ensembles, Sequences, and Population Dynamics</strong></li>
       <li class="mb-2"><strong>Plasticity and the Credit Assignment Problem</strong></li>
       <li><strong>Computation in Non-Neuronal Networks</strong></li>
