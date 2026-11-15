@@ -5,6 +5,13 @@ description: NeuroBiological Computing 2027 at the Heidelberg Academy of Science
 
 <p class="lead">Join us in Heidelberg.</p>
 
+<figure class="figure d-block mb-4">
+  <a href="https://commons.wikimedia.org/wiki/File:Akademie_der_Wissenschaften_Heidelberg.jpg" aria-label="View the original photo on Wikimedia Commons">
+    <img class="figure-img img-fluid rounded" src="{{ '/assets/images/heidelberg-academy.jpg' | relative_url }}" alt="Heidelberg Academy of Sciences and Humanities with Heidelberg Castle rising behind it." width="2275" height="1554">
+  </a>
+  <figcaption class="figure-caption">Photo: <a href="https://commons.wikimedia.org/wiki/User:Immanuel_Giel">Immanuel Giel</a> / <a href="https://commons.wikimedia.org/wiki/File:Akademie_der_Wissenschaften_Heidelberg.jpg">Wikimedia Commons</a> (public domain).</figcaption>
+</figure>
+
 NeuroBiological Computing 2027 takes place on **{{ site.event.date_label }}** at [**Heidelberger Akademie der Wissenschaften (HAdW)**](https://www.hadw-bw.de/node/31) (Heidelberg Academy of Sciences and Humanities).
 
 **Address:** Karlstraße 4, 69117 Heidelberg.
