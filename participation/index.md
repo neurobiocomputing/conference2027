@@ -5,11 +5,13 @@ description: Registration and contribution information for NeuroBiological Compu
 
 <p class="lead">Join the conversation on biological computation.</p>
 
-NeuroBiological Computing 2027 will be held in a **hybrid format** on **{{ site.event.date_label }}**.
+The **NCB 2027** conference offers both on-site and online participation.
 
-**On-site participation is by invitation only.** Online participation is open to everyone, with **mandatory registration**.
+**On-site participation**, including access to the full conference program, is **by invitation only**.
 
-Registered online participants will receive a link to the online platform shortly before the conference begins. The platform will allow participants to ask questions and contribute to the discussion.
+**Online participation** is open to everyone, with **mandatory registration**. Registered participants will have access to live streams of speakers' presentations and Q&A sessions. A link to the online platform will be provided shortly before the conference begins.
+
+The platform will also allow online participants to submit questions and actively contribute to discussions.
 
 ## Registration
 
