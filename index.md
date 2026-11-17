@@ -8,7 +8,7 @@ layout: home
     <h2 id="about-title" class="h1 fw-bold">Neurobiological Computing: An Emerging Paradigm for Investigating Intelligent Biological Matter</h2>
   </div>
   <div class="col-md-8 fs-5">
-    <p>Recent technological advances have enabled us to interact with biological matter as a programmable computational substrate, opening unprecedented opportunities to investigate the fundamental computational principles that give rise to intelligence in biological systems..</p>
+    <p>Recent technological advances have enabled us to interact with biological matter as a programmable computational substrate, opening unprecedented opportunities to investigate the fundamental computational principles that give rise to intelligence in biological systems.</p>
     <p class="mb-0"><strong>Neurobiological Computing 2027 (NBC 2027)</strong> brings together experts from experimental and computational neuroscience, neuromorphic engineering, and related disciplines to pioneer the emerging field of neurobiological computing.</p>
     <h3 id="scope-title" class="h4 mt-4 mb-3">Conference Scope and Topics</h3>
     <ul class="mb-0">
