@@ -20,7 +20,7 @@ layout: home
       <li class="mb-2"><strong>Fundamental Theories and Models of Neural Computation and their Experimental Validation</strong></li>
       <li class="mb-2"><strong>Ensembles, Sequences, and Population Dynamics</strong></li>
       <li class="mb-2"><strong>Plasticity and the Credit Assignment Problem</strong></li>
-      <li><strong>Computation in Non-Neuronal Networks</strong></li>
+      <li><strong>Computation in Non-Neuronal Cellular Networks</strong></li>
     </ul>
   </div>
 </section>
