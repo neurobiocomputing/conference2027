@@ -7,7 +7,7 @@ description: Registration and contribution information for NeuroBiological Compu
 
 The **NCB 2027** conference offers both on-site and online participation.
 
-**On-site participation**, including access to the full conference program, is **by invitation only**.
+**On-site participation**, including access to the full conference program, is by invitation only.
 
 **Online participation** is open to everyone, with **mandatory registration**. Registered participants will have access to live streams of speakers' presentations and Q&A sessions. A link to the online platform will be provided shortly before the conference begins.
 
