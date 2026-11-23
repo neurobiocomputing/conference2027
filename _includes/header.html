@@ -1,0 +1,65 @@
+{%- include get_edition.html -%}
+<!DOCTYPE html>
+<html lang="{{ site.conference.lang | default: 'en' }}">
+
+<head>
+  {% include google-analytics.html %}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {% include get_page_title.html -%}
+  <title>
+    {{- page_title | escape -}}
+    {%- unless page_title == empty %} - {% endunless -%}
+    {{- edition_title -}}
+  </title>
+  {% include list_header_meta.html %}
+
+  {%- comment -%}
+    Theme bundles are versioned by their content hash, the site's own files by the build time
+  {%- endcomment -%}
+  {%- assign site_version = site.time | date: '%s' -%}
+  {%- assign asset_versions = site.data.conference_assets -%}
+  {% if site.conference.custom_style == "bootstrap" %}
+  {% comment %} Conference bundle with separate Bootstrap {% endcomment %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css?t={{ site_version }}" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/conference-only.bundle.css?v={{ asset_versions['css/conference-only.bundle.css'] | default: site_version }}" />
+  {% elsif site.conference.custom_style != "full" %}
+  {% comment %} Full conference bundle {% endcomment %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/conference.bundle.css?v={{ asset_versions['css/conference.bundle.css'] | default: site_version }}" />
+  {% endif %}
+  {% comment %} User stylesheet (can include full custom conference bundle) {% endcomment %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?t={{ site_version }}" />
+
+  {% include list_header_pwa.html %}
+
+  {%- comment -%}
+    Before the first paint (no flash): colour mode and installed app (PWA).
+    Static content, i.e. one hash for a Content Security Policy (see README).
+  {%- endcomment %}
+  <script>{ const root = document.documentElement; root.dataset.bsTheme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; root.dataset.pwa = !!document.querySelector('link[rel="manifest"]') && (navigator.standalone === true || matchMedia("(display-mode: standalone)").matches); }</script>
+</head>
+
+<body class="min-vh-100">
+  <a href="#main" class="visually-hidden-focusable position-absolute top-0 start-0">
+    {{ site.data.lang[site.conference.lang].navigation.skip_to_content | default: "Skip to content" }}
+  </a>
+  <header>
+    <!-- navigation bar (web only): -->
+    {%- include navbar.html -%}
+
+    {%- assign home_url = edition_base | append: "/" -%}
+    {%- unless page.url == home_url -%}
+      <!-- site title (print only): -->
+      <div class="container d-none d-print-block mt-4 mb-4">
+        <h1 class="display-4">
+          {{ edition_title }}
+        </h1>
+      </div>
+    {%- endunless -%}
+
+  </header>
+  <main id="main" class="container my-3" role="main" tabindex="-1">
+
+    {%- include infobox.html -%}
+

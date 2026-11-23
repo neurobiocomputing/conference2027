@@ -140,6 +140,10 @@ The site uses the actual theme gem, including its Bootstrap styles, responsive
 navigation, metadata, and conference layouts. Small overrides in
 `_layouts/home.html` and `_layouts/page.html` add the conference landing page and
 shared footer while retaining the theme's header, navigation, and scripts.
+`_includes/header.html` overrides the theme's v5.1.0 header to load
+`_includes/google-analytics.html` immediately after `<head>` on every page,
+including the 404 page. The snippet loads the Google tag (`gtag.js`) and
+configures Google Analytics measurement ID `G-Z2KPN702DL`.
 `_includes/schema_conference.html` supplies event metadata using only the
 confirmed name, dates, and venue, without assuming an attendance format.
 
